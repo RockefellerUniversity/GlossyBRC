@@ -1,0 +1,4 @@
+PF_INDEL_RATE:
+  definition: The number of insertion and deletion events per 100 aligned bases. Uses
+    the number of events as the numerator, not the number of inserted or deleted bases.
+  course_links: NA

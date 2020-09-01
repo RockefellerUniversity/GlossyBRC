@@ -1,0 +1,4 @@
+BAD_CYCLES:
+  definition: The number of instrument cycles in which 80% or more of base calls were
+    no-calls.
+  course_links: NA

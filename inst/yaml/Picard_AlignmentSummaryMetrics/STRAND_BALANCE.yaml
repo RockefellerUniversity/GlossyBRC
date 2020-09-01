@@ -1,0 +1,4 @@
+STRAND_BALANCE:
+  definition: The number of PF reads aligned to the positive strand of the genome
+    divided by the number of PF reads aligned to the genome.
+  course_links: NA

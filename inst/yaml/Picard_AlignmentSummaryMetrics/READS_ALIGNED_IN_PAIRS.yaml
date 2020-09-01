@@ -1,0 +1,4 @@
+READS_ALIGNED_IN_PAIRS:
+  definition: The number of aligned reads whose mate pair was also aligned to the
+    reference.
+  course_links: NA

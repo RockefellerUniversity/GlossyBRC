@@ -1,0 +1,3 @@
+PF_READS:
+  definition: The number of PF reads where PF is defined as passing Illumina's filter.
+  course_links: NA

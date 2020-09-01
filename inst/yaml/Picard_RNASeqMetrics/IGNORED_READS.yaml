@@ -1,0 +1,6 @@
+IGNORED_READS:
+  definition: Number of primary alignments that are mapped to a sequence specified
+    on command-line as IGNORED_SEQUENCE. These are not counted in PF_ALIGNED_BASES,
+    CORRECT_STRAND_READS, INCORRECT_STRAND_READS, or any of the base-counting metrics.
+    These reads are counted in PF_BASES.
+  course_links: NA

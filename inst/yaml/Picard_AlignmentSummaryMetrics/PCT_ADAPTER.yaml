@@ -1,0 +1,4 @@
+PCT_ADAPTER:
+  definition: The fraction of PF reads that are unaligned and match to a known adapter
+    sequence right from the start of the read.
+  course_links: NA

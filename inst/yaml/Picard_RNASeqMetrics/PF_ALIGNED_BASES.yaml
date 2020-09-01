@@ -1,0 +1,5 @@
+PF_ALIGNED_BASES:
+  definition: The total number of aligned PF bases. Non-primary alignments are not
+    counted. Bases in aligned reads that do not correspond to reference (e.g. soft
+    clips, insertions) are not counted.
+  course_links: NA

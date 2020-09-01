@@ -1,0 +1,4 @@
+INCORRECT_STRAND_READS:
+  definition: Number of aligned reads that are mapped to the incorrect strand. 0 if
+    library is not strand-specific.
+  course_links: NA

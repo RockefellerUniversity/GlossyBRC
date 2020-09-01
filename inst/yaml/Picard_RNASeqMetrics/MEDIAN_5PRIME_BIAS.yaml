@@ -1,0 +1,5 @@
+MEDIAN_5PRIME_BIAS:
+  definition: 'The median 5 prime bias of the 1000 most highly expressed transcripts.
+    The 5 prime bias is calculated per transcript as: mean coverage of the 5 prime-most
+    100 bases divided by the mean coverage of the whole transcript.'
+  course_links: NA

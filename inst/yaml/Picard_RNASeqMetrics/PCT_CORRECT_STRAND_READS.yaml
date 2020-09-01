@@ -1,0 +1,5 @@
+PCT_CORRECT_STRAND_READS:
+  definition: Fraction of reads corresponding to mRNA transcripts which map to the
+    correct strand of a reference genome = CORRECT_STRAND_READS/(CORRECT_STRAND_READS
+    + INCORRECT_STRAND_READS). 0 if library is not strand-specific.
+  course_links: NA

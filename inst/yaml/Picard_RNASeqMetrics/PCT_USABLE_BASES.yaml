@@ -1,0 +1,4 @@
+PCT_USABLE_BASES:
+  definition: The fraction of bases mapping to mRNA divided by the total number of
+    PF bases, (CODING_BASES + UTR_BASES)/PF_BASES.
+  course_links: NA

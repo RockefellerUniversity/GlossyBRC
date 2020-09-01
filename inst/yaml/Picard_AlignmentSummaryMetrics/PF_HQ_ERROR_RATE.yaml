@@ -1,0 +1,3 @@
+PF_HQ_ERROR_RATE:
+  definition: The fraction of bases that mismatch the reference in PF HQ aligned reads.
+  course_links: NA

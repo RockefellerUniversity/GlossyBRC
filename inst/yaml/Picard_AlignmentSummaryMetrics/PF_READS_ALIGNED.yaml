@@ -1,0 +1,4 @@
+PF_READS_ALIGNED:
+  definition: The number of PF reads that were aligned to the reference sequence.
+    This includes reads that aligned with low quality (i.e. their alignments are ambiguous).
+  course_links: NA

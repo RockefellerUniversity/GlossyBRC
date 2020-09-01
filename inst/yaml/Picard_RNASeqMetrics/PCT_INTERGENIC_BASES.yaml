@@ -1,0 +1,4 @@
+PCT_INTERGENIC_BASES:
+  definition: Fraction of PF_ALIGNED_BASES that mapped to intergenic regions of genomic
+    DNA, INTERGENIC_BASES/PF_ALIGNED_BASES
+  course_links: NA

@@ -1,0 +1,5 @@
+PF_NOISE_READS:
+  definition: The number of PF reads that are marked as noise reads. A noise read
+    is one which is composed entirely of A bases and/or N bases. These reads are marked
+    as they are usually artifactual and are of no use in downstream analysis.
+  course_links: NA

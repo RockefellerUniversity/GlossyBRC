@@ -1,0 +1,6 @@
+PCT_R2_TRANSCRIPT_STRAND_READS:
+  definition: The fraction of reads that support the model where R2 is on the strand
+    of transcription and R1 is on the opposite strand. For unpaired reads, it is the
+    fraction of reads that are on opposite strand than that of the the transcription
+    strand (out of all the reads).
+  course_links: NA

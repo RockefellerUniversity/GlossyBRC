@@ -1,0 +1,4 @@
+NUM_UNEXPLAINED_READS:
+  definition: The fraction of reads for which the transcription strand model could
+    not be inferred.
+  course_links: NA

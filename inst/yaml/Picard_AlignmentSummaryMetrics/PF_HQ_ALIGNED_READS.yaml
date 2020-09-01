@@ -1,0 +1,5 @@
+PF_HQ_ALIGNED_READS:
+  definition: The number of PF reads that were aligned to the reference sequence with
+    a mapping quality of Q20 or higher signifying that the aligner estimates a 1/100
+    (or smaller) chance that the alignment is wrong.
+  course_links: NA

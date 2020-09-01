@@ -1,0 +1,4 @@
+PCT_CODING_BASES:
+  definition: Fraction of PF_ALIGNED_BASES that mapped to protein coding regions of
+    genes, CODING_BASES/PF_ALIGNED_BASES
+  course_links: NA

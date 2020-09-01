@@ -1,0 +1,4 @@
+MEDIAN_CV_COVERAGE:
+  definition: The median coefficient of variation (CV) or stdev/mean for coverage
+    values of the 1000 most highly expressed transcripts. Ideal value = 0.
+  course_links: NA

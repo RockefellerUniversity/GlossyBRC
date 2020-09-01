@@ -1,0 +1,4 @@
+PCT_READS_ALIGNED_IN_PAIRS:
+  definition: The fraction of reads whose mate pair was also aligned to the reference.
+    READS_ALIGNED_IN_PAIRS / PF_READS_ALIGNED
+  course_links: NA

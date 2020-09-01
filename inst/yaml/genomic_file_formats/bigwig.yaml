@@ -1,0 +1,7 @@
+bigwig: 
+ definition: The bigWig format is for display of dense, continuous data that will be displayed in a genome browser (e.g. IGV or UCSC) as a graph. Examples of this type of data include ChIP-seq and RNA-seq read signal.
+ course_links: https://rockefelleruniversity.github.io/Genomic_Data//presentations/slides/GenomicsData.html#39, https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor.html#40
+
+
+
+ 

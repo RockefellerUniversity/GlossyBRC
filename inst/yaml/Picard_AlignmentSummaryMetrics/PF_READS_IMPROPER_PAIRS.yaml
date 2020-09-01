@@ -1,0 +1,4 @@
+PF_READS_IMPROPER_PAIRS:
+  definition: The number of (primary) aligned reads that are **not** "properly" aligned
+    in pairs (as per SAM flag 0x2).
+  course_links: NA

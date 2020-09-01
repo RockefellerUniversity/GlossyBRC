@@ -1,0 +1,4 @@
+MEDIAN_5PRIME_TO_3PRIME_BIAS:
+  definition: The ratio of coverage at the 5 prime end to the 3 prime end based on
+    the 1000 most highly expressed transcripts.
+  course_links: NA

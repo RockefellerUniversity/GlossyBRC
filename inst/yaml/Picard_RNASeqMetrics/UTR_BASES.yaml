@@ -1,0 +1,4 @@
+UTR_BASES:
+  definition: Number of bases in primary alignments that align to a UTR base for some
+    gene, and not a coding base.
+  course_links: NA

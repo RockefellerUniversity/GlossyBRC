@@ -1,0 +1,4 @@
+NUM_R1_TRANSCRIPT_STRAND_READS:
+  definition: The number of reads that support the model where R1 is on the strand
+    of transcription and R2 is on the opposite strand.
+  course_links: NA

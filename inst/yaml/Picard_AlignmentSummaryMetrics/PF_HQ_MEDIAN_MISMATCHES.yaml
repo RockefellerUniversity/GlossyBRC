@@ -1,0 +1,4 @@
+PF_HQ_MEDIAN_MISMATCHES:
+  definition: The median number of mismatches versus the reference sequence in reads
+    that were aligned to the reference at high quality (i.e. PF_HQ_ALIGNED READS).
+  course_links: NA

@@ -1,0 +1,4 @@
+PF_MISMATCH_RATE:
+  definition: The rate of bases mismatching the reference for all bases aligned to
+    the reference sequence.
+  course_links: NA

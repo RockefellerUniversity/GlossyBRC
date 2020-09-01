@@ -1,0 +1,4 @@
+PCT_MRNA_BASES:
+  definition: Sum of bases mapped to regions corresponding to UTRs and coding regions
+    of mRNA transcripts, PCT_UTR_BASES + PCT_CODING_BASES
+  course_links: NA

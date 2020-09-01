@@ -1,0 +1,3 @@
+PCT_INTRONIC_BASES:
+  definition: Fraction of PF_ALIGNED_BASES that correspond to gene introns, INTRONIC_BASES/PF_ALIGNED_BASES
+  course_links: NA

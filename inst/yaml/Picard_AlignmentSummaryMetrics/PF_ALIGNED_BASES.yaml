@@ -1,0 +1,4 @@
+PF_ALIGNED_BASES:
+  definition: The total number of aligned bases, in all mapped PF reads, that are
+    aligned to the reference sequence.
+  course_links: NA

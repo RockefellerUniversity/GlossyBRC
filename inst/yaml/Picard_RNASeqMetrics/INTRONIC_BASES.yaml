@@ -1,0 +1,4 @@
+INTRONIC_BASES:
+  definition: Number of bases in primary alignments that align to an intronic base
+    for some gene, and not a coding or UTR base.
+  course_links: NA

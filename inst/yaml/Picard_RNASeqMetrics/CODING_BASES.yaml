@@ -1,0 +1,4 @@
+CODING_BASES:
+  definition: Number of bases in primary alignments that align to a non-UTR coding
+    base for some gene, and not ribosomal sequence.
+  course_links: NA

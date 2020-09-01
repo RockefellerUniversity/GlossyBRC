@@ -1,0 +1,6 @@
+CATEGORY:
+  definition: One of either UNPAIRED (for a fragment run), FIRST_OF_PAIR when metrics
+    are for only the first read in a paired run, SECOND_OF_PAIR when the metrics are
+    for only the second read in a paired run or PAIR when the metrics are aggregated
+    for both first and second reads in a pair.
+  course_links: NA

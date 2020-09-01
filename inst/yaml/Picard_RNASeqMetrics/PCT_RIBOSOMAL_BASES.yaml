@@ -1,0 +1,4 @@
+PCT_RIBOSOMAL_BASES:
+  definition: Fraction of PF_ALIGNED_BASES that mapped to regions encoding ribosomal
+    RNA, RIBOSOMAL_BASES/PF_ALIGNED_BASES
+  course_links: NA

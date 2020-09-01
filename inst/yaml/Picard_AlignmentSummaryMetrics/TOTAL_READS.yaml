@@ -1,0 +1,4 @@
+TOTAL_READS:
+  definition: The total number of reads including all PF and non-PF reads. When CATEGORY
+    equals PAIR this value will be 2x the number of clusters.
+  course_links: NA

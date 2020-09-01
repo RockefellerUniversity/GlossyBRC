@@ -1,0 +1,6 @@
+PF_HQ_ALIGNED_BASES:
+  definition: The number of bases aligned to the reference sequence in reads that
+    were mapped at high quality. Will usually approximate PF_HQ_ALIGNED_READS * READ_LENGTH
+    but may differ when either mixed read lengths are present or many reads are aligned
+    with gaps.
+  course_links: NA

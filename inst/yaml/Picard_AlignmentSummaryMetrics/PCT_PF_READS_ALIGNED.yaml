@@ -1,0 +1,4 @@
+PCT_PF_READS_ALIGNED:
+  definition: The percentage of PF reads that aligned to the reference sequence. PF_READS_ALIGNED
+    / PF_READS
+  course_links: NA

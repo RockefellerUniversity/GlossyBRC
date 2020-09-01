@@ -1,0 +1,3 @@
+INTERGENIC_BASES:
+  definition: Number of bases in primary alignments that do not align to any gene.
+  course_links: NA

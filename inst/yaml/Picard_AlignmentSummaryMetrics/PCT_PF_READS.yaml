@@ -1,0 +1,3 @@
+PCT_PF_READS:
+  definition: The fraction of reads that are PF (PF_READS / TOTAL_READS)
+  course_links: NA

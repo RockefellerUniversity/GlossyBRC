@@ -1,0 +1,3 @@
+RIBOSOMAL_BASES:
+  definition: Number of bases in primary alignments that align to ribosomal sequence.
+  course_links: NA

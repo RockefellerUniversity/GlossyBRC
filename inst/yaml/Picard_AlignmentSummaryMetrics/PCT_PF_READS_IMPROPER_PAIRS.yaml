@@ -1,0 +1,4 @@
+PCT_PF_READS_IMPROPER_PAIRS:
+  definition: The fraction of (primary) reads that are *not* "properly" aligned in
+    pairs (as per SAM flag 0x2). PF_READS_IMPROPER_PAIRS / PF_READS_ALIGNED
+  course_links: NA
