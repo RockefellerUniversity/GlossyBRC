@@ -14,8 +14,7 @@
 #' @export
 get_glossary <- function(select_terms = NULL, data_frame = FALSE){
 
-  yamls <- list.files("inst/yaml/", full.names = TRUE, recursive = TRUE)
-
+  yamls <- list.files(system.file("yaml/", package = "GlossyBRC"), full.names = TRUE, recursive = TRUE)
   all_yaml_list <- list()
 
   for (i in seq_along(yamls)){
@@ -60,12 +59,11 @@ get_glossary <- function(select_terms = NULL, data_frame = FALSE){
 #' @export
 list_terms <- function(select_categories = NULL){
 
-  category_dirs <- list.files("inst/yaml/")
-  categories <- file_path_sans_ext(category_dirs)
+  categories <- list_categories()
 
   category_list <- list()
   for (i in seq_along(categories)){
-    terms <- list.files(paste0("inst/yaml/", categories[i]))
+    terms <-list.files(system.file(paste0("yaml/", categories[i]), package = "GlossyBRC"))
     category_list[[i]] = file_path_sans_ext(terms)
   }
   names(category_list) <- categories
@@ -95,7 +93,7 @@ list_terms <- function(select_categories = NULL){
 #' @export
 list_categories <- function(){
 
-  category_dirs <- list.files("inst/yaml/")
+  category_dirs <- list.files(system.file("yaml/", package = "GlossyBRC"))
   categories <- file_path_sans_ext(category_dirs)
 
   return(categories)
