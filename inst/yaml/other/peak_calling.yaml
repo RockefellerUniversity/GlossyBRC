@@ -1,0 +1,14 @@
+peak_calling: 
+ definition: The process of scanning the genome to identify regions with enriched read signal (ideally compared to a control sample) using a count based statistic. 
+ course_links: https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#36, https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#37
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 

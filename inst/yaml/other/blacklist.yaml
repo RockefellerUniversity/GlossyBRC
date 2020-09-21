@@ -1,0 +1,11 @@
+blacklist: 
+ definition: ChIPseq will often show the presence of common artifacts, such as ultra-high signal regions. Such regions can confound peak calling, fragment length estimation and QC metrics. ENCODE Data Analysis Center (DAC) blacklisted regions were created as a reference to help deal with these regions.
+ course_links: https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#25, https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#25
+ 
+ 
+ 
+ 
+ 
+
+
+ 
