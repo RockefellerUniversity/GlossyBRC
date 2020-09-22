@@ -1,0 +1,10 @@
+PBC_2: 
+ definition: The PCRbottleneckCoefficient_2 is a secondary measure of bottlenecking. It is calculated as the number of positions in genome with exactly 1 read mapped uniquely compared to the number of positions with exactly 2 reads mapping uniquely.
+ course_links: https://rockefelleruniversity.github.io/RU_ATACseq/presentations/slides/RU_ATAC.html#51, https://rockefelleruniversity.github.io/RU_ATACseq/presentations/slides/RU_ATAC.html#52
+ 
+ 
+ 
+ 
+
+
+ 
