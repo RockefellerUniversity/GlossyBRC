@@ -1,6 +1,8 @@
 TSSE: 
  definition: The TSS enrichment calculation is a signal to noise calculation. The reads around a reference set of TSSs are collected to form an aggregate distribution of reads centered on the TSSs and extending to 1000 bp in either direction (for a total of 2000bp). This distribution is then normalized by taking the average read depth in the 100 bps at each of the end flanks of the distribution (for a total of 200bp of averaged data) and calculating a fold change at each position over that average read depth.
- course_links: 
+ course_links: https://rockefelleruniversity.github.io/RU_ATACseq/presentations/slides/RU_ATAC.html#51, https://rockefelleruniversity.github.io/RU_ATACseq/presentations/slides/RU_ATAC.html#51
+ 
+ 
  
  
 
