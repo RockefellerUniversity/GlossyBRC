@@ -33,7 +33,7 @@ get_glossary <- function(select_terms = NULL, data_frame = FALSE){
   } else {
     for (i in seq_along(select_terms)){
       if (!select_terms[i] %in% names(all_yaml_list)){
-        stop(paste0(select_terms[i], " is not in the glossary! Check the elements in the gloassary with 'list_terms()'. "))
+        stop(paste0(select_terms[i], " is not in the glossary! Check the elements in the glossary with 'list_terms()'. "))
       }
     }
     yaml_subset <- all_yaml_list[select_terms]
