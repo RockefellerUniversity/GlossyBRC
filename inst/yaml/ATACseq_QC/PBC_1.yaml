@@ -1,10 +1,3 @@
 PBC_1: 
  definition: The PCRbottleneckCoefficient_1 is calculated as the number of positions in genome with exactly 1 read mapped uniquely compared to the number of positions with at least 1 read.
  course_links: https://rockefelleruniversity.github.io/RU_ATACseq/presentations/slides/RU_ATAC.html#51, https://rockefelleruniversity.github.io/RU_ATACseq/presentations/slides/RU_ATAC.html#52
- 
- 
- 
- 
-
-
- 

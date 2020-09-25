@@ -1,0 +1,4 @@
+Transcripts_Per_Million: 
+ definition: The number of reads for a given gene is divided by the length of each gene in kilobases (RPK - reads per kilobase), and this number is then divided by the 'per million' scaling factor, which is the sum of all the RPK valeus for a sample divided by 1,000,000.
+ course_links: https://rockefelleruniversity.github.io/RU_RNAseq/presentations/slides/RU_RNAseq_p2.html#44, https://rockefelleruniversity.github.io/RU_RNAseq/presentations/slides/RU_RNAseq_p2.html#40
+

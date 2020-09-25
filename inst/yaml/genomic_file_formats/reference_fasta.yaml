@@ -1,7 +1,3 @@
 reference_fasta: 
  definition: A reference fasta is a collection of contigs that serves as a pre-built map of a particular oprganisms genome and allows for genomic features to be evaluated in their linear genomic context. Contigs are stretches of DNA sequence encoded as A,G,C,T,N and in this case are represented in a fasta file format containing information about that contig. 
  course_links: https://rockefelleruniversity.github.io/Genomic_Data//presentations/slides/GenomicsData.html#6, https://rockefelleruniversity.github.io/RU_RNAseq/presentations/slides/RU_RNAseq_p1.html#18
-
-
-
- 

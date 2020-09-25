@@ -1,0 +1,4 @@
+Gene_Counts: 
+ definition: The total number of reads that overlap with exons for a given gene.  
+ course_links: https://rockefelleruniversity.github.io/RU_RNAseq/presentations/slides/RU_RNAseq_p1.html#28, https://rockefelleruniversity.github.io/RU_RNAseq/presentations/slides/RU_RNAseq_p2.html#7
+
