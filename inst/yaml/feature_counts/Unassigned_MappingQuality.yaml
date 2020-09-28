@@ -1,0 +1,4 @@
+Unassigned_MappingQuality:
+  definition: alignments with a mapping quality score lower than the threshold.
+  course_links: NA
+

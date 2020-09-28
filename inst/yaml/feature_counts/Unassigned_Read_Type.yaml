@@ -1,0 +1,5 @@
+Unassigned_Unmapped::
+  definition: Reads that have an unexpected read type (eg. being a single end read included in a paired end dataset) and also cannot be counted with confidence (eg. due to stranded counting). Such reads are typically generated from a read trimming program.
+  course_links: NA
+
+

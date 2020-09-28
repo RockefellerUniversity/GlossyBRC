@@ -1,0 +1,4 @@
+Unassigned_Overlapping_Length:
+  definition: alignments that do not overlap any feature (or metafeature) with the minimum required overlap length.
+  course_links: NA
+
