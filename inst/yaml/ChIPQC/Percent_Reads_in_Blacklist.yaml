@@ -1,0 +1,7 @@
+Percent_Reads_in_Blacklist: 
+ definition: The percentage of reads that overlap with called blacklisted regions (see 'blacklist' in glossary below for information on peak calling). 
+ course_links: https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#25, https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#27
+
+ 
+   
+  

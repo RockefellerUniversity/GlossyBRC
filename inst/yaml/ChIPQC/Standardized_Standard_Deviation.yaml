@@ -1,0 +1,7 @@
+Standardized_Standard_Deviation: 
+ definition: The standardized standard deviation (SSD) score is an indication of evidence of enrichment. It is computed by looking at the standard deviation of signal pile-up along the genome normalised to the total number of reads.
+ course_links: https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#27, https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#28
+
+ 
+ 
+  

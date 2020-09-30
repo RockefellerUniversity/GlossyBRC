@@ -1,0 +1,6 @@
+Percent_Multimapping: 
+ definition: Multimapping reads are reads who can be assigned to more than one location with equal certainty. These reads are often associated with repeat regions of genome and high multimapping rates may reflect lower signal to noise for ChIP and higher backgrounds. It should be noted that some ChIPs are for factors or epigenetic marks associated to repeat DNA and so there high multimapping rates should be expected
+ course_links: NA
+
+
+  

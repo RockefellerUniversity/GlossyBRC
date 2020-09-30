@@ -1,0 +1,6 @@
+Percent_Reads_in_Peaks: 
+ definition: The percentage of reads that overlap with called peak regions (see 'peak_calling' in glossary below for information on peak calling). 
+ course_links: NA
+
+   
+  

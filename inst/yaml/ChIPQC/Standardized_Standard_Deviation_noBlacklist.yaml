@@ -1,0 +1,7 @@
+Standardized_Standard_Deviation_noBlacklist: 
+ definition: The standardized standard deviation (SSD) score with the blacklist regions removed. SSD scores are dependent on the degree of total genome wide signal pile-up and so are sensitive to regions of high signal found with Blacklisted regions as well as genuine ChIP enrichment.
+ course_links: https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#27, https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#28
+
+ 
+ 
+  

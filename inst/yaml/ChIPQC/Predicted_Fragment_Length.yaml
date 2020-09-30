@@ -1,0 +1,7 @@
+Predicted_Fragment_Length: 
+ definition: In single-end sequencing typically a short strech of the actual dsDNA fragment is sequenced. Fragment length is determined by systematically shifting the reads on each strand towards each other until the minimum genome coverage is achieved. 
+ course_links: https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#15, https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#15
+
+
+
+  

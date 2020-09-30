@@ -1,0 +1,7 @@
+Percent_Duplicated: 
+ definition: Duplicates reflect reads mapping to exact shared location on the genome. High duplication rates in ChIP-seq are often associated with low complexity libraries but should be assessed in context of total read numbers and antibody efficiency/specificity.
+ course_links: https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#31, https://rockefelleruniversity.github.io/RU_ChIPseq/presentations/slides/ChIPseq_In_Bioconductor2.html#32
+
+ 
+   
+  
