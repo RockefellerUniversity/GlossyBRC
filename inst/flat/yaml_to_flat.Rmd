@@ -1,0 +1,56 @@
+---
+title: "yaml_to_flat"
+author: "Matt"
+date: '2022-03-01'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# YAML to flat
+
+Convert .yaml files to a generic flat format that is more user-friendly
+
+```{r}
+library(yaml)
+library(stringr)
+
+yml_files <- dir("../yaml/", pattern=".yaml", recursive = T)
+
+yml_file_paths <- file.path("../yaml/", yml_files)
+
+glossy_df <- sapply(yml_file_paths, function(x){
+y <- read_yaml(x)
+Name <- names(y)
+Definition <- unlist(y[[1]][1])
+CourseLink <- unlist(y[[1]][2]) %>% str_split(", ", simplify = T) %>% .[1]
+
+entry <- c(Name, Definition, CourseLink)
+
+names(entry) <- c("Name","Definition","CourseLink")
+
+return(entry)
+
+})
+
+glossy_df <- t(glossy_df)
+rownames(glossy_df) <- NULL
+
+write.csv(glossy_df, "glossary.csv", row.names = F)
+
+#Name
+#Definition
+#Course Link
+#Source Link
+
+
+
+```
+
+# Session
+
+```{r}
+devtools::session_info()
+```
