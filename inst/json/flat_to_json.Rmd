@@ -1,0 +1,46 @@
+---
+title: "flat_to_json"
+author: "Matt"
+date: '2022-03-01'
+output: html_document
+---
+
+# flat to JSON
+
+Convert flat .csv glossary to a JSON for use with targets pipeline.
+
+```{r}
+library(rjson)
+library(stringr)
+
+gloss <- read.csv("../flat/glossary.csv")
+
+gloss_json <-toJSON(gloss)
+
+write(gloss_json, "glossary.json")
+
+#Name
+#Definition
+#Course Link
+#Source Link
+
+
+gloss_list <- apply(gloss,1,function(x){
+  y<-as.list(x)
+  y<- list(y)
+  names(y)<- x[1]
+  return(y)
+})
+
+gloss_json <- toJSON(gloss_list)
+write(gloss_json, "glossary2.json")
+
+
+
+```
+
+# Session
+
+```{r}
+devtools::session_info()
+```
