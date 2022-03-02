@@ -375,7 +375,7 @@ pipeline.</p>
 <pre class="r"><code>library(stringr)
 
 gloss &lt;- read.csv(&quot;../flat/glossary.csv&quot;)
-
+gloss &lt;- gloss[order(gloss$Tags),]
 gloss_json &lt;-toJSON(gloss)
 
 write(gloss_json, &quot;glossary.json&quot;)
@@ -387,12 +387,13 @@ write(gloss_json, &quot;glossary.json&quot;)
 
 
 gloss_list &lt;- apply(gloss,1,function(x){
-  y&lt;-as.list(x)
-  y&lt;- list(y)
-  names(y)&lt;- x[1]
+  y &lt;-as.list(x)
+  y &lt;- list(y)
+  names(y)&lt;- unlist(x[1])
   return(y)
 })
-
+gloss_list &lt;- unlist(gloss_list,recursive=F)
+names(gloss_list) &lt;- NULL
 gloss_json &lt;- toJSON(gloss_list)
 write(gloss_json, &quot;glossary2.json&quot;)</code></pre>
 </div>
@@ -409,7 +410,7 @@ write(gloss_json, &quot;glossary2.json&quot;)</code></pre>
 ##  collate  en_US.UTF-8
 ##  ctype    en_US.UTF-8
 ##  tz       America/New_York
-##  date     2022-03-01
+##  date     2022-03-02
 ##  pandoc   2.17.1.1 @ /Applications/RStudio.app/Contents/MacOS/quarto/bin/ (via rmarkdown)
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────

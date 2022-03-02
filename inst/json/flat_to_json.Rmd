@@ -14,7 +14,7 @@ library(rjson)
 library(stringr)
 
 gloss <- read.csv("../flat/glossary.csv")
-
+gloss <- gloss[order(gloss$Tags),]
 gloss_json <-toJSON(gloss)
 
 write(gloss_json, "glossary.json")
@@ -26,12 +26,13 @@ write(gloss_json, "glossary.json")
 
 
 gloss_list <- apply(gloss,1,function(x){
-  y<-as.list(x)
-  y<- list(y)
-  names(y)<- x[1]
+  y <-as.list(x)
+  y <- list(y)
+  names(y)<- unlist(x[1])
   return(y)
 })
-
+gloss_list <- unlist(gloss_list,recursive=F)
+names(gloss_list) <- NULL
 gloss_json <- toJSON(gloss_list)
 write(gloss_json, "glossary2.json")
 
