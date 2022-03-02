@@ -384,9 +384,9 @@ Name &lt;- names(y)
 Definition &lt;- unlist(y[[1]][1])
 CourseLink &lt;- unlist(y[[1]][2]) %&gt;% str_split(&quot;, &quot;, simplify = T) %&gt;% .[1]
 
-entry &lt;- c(Name, Definition, CourseLink)
+entry &lt;- c(Name, CourseLink, Definition)
 
-names(entry) &lt;- c(&quot;Name&quot;,&quot;Definition&quot;,&quot;CourseLink&quot;)
+names(entry) &lt;- c(&quot;Tags&quot;,&quot;URLS&quot;,&quot;Description&quot;)
 
 return(entry)
 
@@ -430,7 +430,7 @@ write.csv(glossy_df, &quot;glossary.csv&quot;, row.names = F)
 ##  collate  en_US.UTF-8
 ##  ctype    en_US.UTF-8
 ##  tz       America/New_York
-##  date     2022-03-01
+##  date     2022-03-02
 ##  pandoc   2.17.1.1 @ /Applications/RStudio.app/Contents/MacOS/quarto/bin/ (via rmarkdown)
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────

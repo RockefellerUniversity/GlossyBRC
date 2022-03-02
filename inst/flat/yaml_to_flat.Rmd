@@ -27,9 +27,9 @@ Name <- names(y)
 Definition <- unlist(y[[1]][1])
 CourseLink <- unlist(y[[1]][2]) %>% str_split(", ", simplify = T) %>% .[1]
 
-entry <- c(Name, Definition, CourseLink)
+entry <- c(Name, CourseLink, Definition)
 
-names(entry) <- c("Name","Definition","CourseLink")
+names(entry) <- c("Tags","URLS","Description")
 
 return(entry)
 
